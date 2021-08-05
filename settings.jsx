@@ -7,7 +7,7 @@ module.exports = class AmongSettings extends React.PureComponent {
 		return (
 			<SliderInput
 				minValue={0}
-				maxValue={150}
+				maxValue={100}
 				initialValue={getSetting('volume', 1) * 100}
 				markers={[0, 25, 50, 75, 100]}
 				onValueChange={change => {
