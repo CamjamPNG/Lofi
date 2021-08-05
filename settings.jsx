@@ -1,3 +1,7 @@
+const { React } = require('powercord/webpack');
+const { SliderInput } = require('powercord/components/settings');
+
+module.exports = class LofiSettings extends React.PureComponent {
 		return (
 			<SliderInput
 				minValue={0}
