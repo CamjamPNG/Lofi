@@ -12,7 +12,7 @@ module.exports = class AmongSettings extends React.PureComponent {
 				markers={[0, 25, 50, 75, 100]}
 				onValueChange={change => {
 					updateSetting('volume', change / 100);
-					window.sus.volume = change / 100;
+					window.ily.volume = change / 100;
 				}}
 			>
 				Volume
